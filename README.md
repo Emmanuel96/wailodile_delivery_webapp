@@ -1,5 +1,7 @@
 "# wailodile_delivery_webapp" 
 
+"# Bootstrap & Laravel application to book book and track logistics riders"
+
 - Author: Kole Audu 
 
 - TO INSTALL USE COMMANDS: 
