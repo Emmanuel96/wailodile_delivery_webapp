@@ -90,7 +90,7 @@
       <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">
             <img src="{{URL::asset('img/logo_for_now_4.png')}}" width="37" height="37" class="d-inline-block align-top brand-image" alt="">
-            Able Craftsmen
+            Wailodile Deliveries
         </a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
@@ -131,15 +131,15 @@
       <div class="container">
         <div  class="intro-text">
           <div id ="typewriter"   class="intro-lead-in">....</div>
-          <div style = "padding-top: 20px;" class="intro-lead-in">We have an Artisan For You</div>
-          <a style = "font-weight: normal; margin: 5px; padding: 10px; width: 300px;" data-toggle="modal" class="btn btn-primary btn-xl js-scroll-trigger my-booking-button" data-target="#bookArtisan">Book An Able Craftsman</a>
-          <a style = "font-weight: normal; background-color: transparent; margin: 5px; width: 300px; padding: 10px;  " data-toggle = "modal" class="btn btn-primary btn-xl js-scroll-trigger" data-target = "#become-An-Artisan">Become An Able Craftsman</a>
+          <div style = "padding-top: 20px;" class="intro-lead-in">We Can Deliver It.</div>
+          <a style = "font-weight: normal; margin: 5px; padding: 10px; width: 300px;" data-toggle="modal" class="btn btn-primary btn-xl js-scroll-trigger my-booking-button" data-target="#bookRider">Book A Wailodile Rider</a>
+          <a style = "font-weight: normal; background-color: transparent; margin: 5px; width: 300px; padding: 10px;  " data-toggle = "modal" class="btn btn-primary btn-xl js-scroll-trigger" data-target = "#become-An-Artisan">Become a wailodile Rider</a>
        </div>
       </div>
     </header>
-
-    <!-- Services -->
-    <section id="services">
+{{-- 
+ <!-- Services -->
+ <section id="services">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
@@ -189,7 +189,7 @@
           <h2 class= "section-subheading text-center" style = "font-weight: bold; ">Your required service isn't listed? </h2>
           <h3 class = "section-subheading text-center" style= "margin-bottom: 30px; "> No worries! Make a Request and we will contact you within minutes.</h3>
           <div class = "d-flex justify-content-center">
-             <a style = "font-weight: normal; color: black; background-color: transparent; width: 300px; padding: 10px;" data-toggle="modal" class="btn btn-primary btn-xl  my-booking-button center" data-target="#bookArtisan">Book An Able Craftsman</a>
+             <a style = "font-weight: normal; color: black; background-color: transparent; width: 300px; padding: 10px;" data-toggle="modal" class="btn btn-primary btn-xl  my-booking-button center" data-target="#bookRider">Book An Able Craftsman</a>
           </div>
         </div>
       </div>
@@ -328,13 +328,13 @@
         </div>
       </div>
     </section>
-
+    --}}
 
 <footer class="footer-distributed" style = "background-color: black;">
 
 <div class="footer-left">
 
-  <h4 style = "color: white; "> Copyright &copy; AbleCraftsmen 2018</h4>
+  <h4 style = "color: white; "> Copyright &copy; Wailodile Deliveries 2019</h4>
 <!-- 
   <p class="footer-links">
     <a href="#">Home</a>
@@ -366,7 +366,7 @@
 
   <div>
     <i class="fa fa-envelope"></i>
-    <p><a style = "color: #fed136;" href="mailto:support@company.com">support@ablecraftsmen.com</a></p>
+    <p><a style = "color: #fed136;" href="mailto:support@company.com">wailodile@gmail.com</a></p>
   </div>
 
 </div>
@@ -374,8 +374,8 @@
 <div class="footer-right">
 
   <p class="footer-company-about">
-    <span>About AbleCraftsmen</span>
-    We plan to provide you with the most reliable and professional artisans out there.
+    <span>About Wailodile Deliveries</span>
+    We provide you with the most reliable logistic service out there.
   </p>
 
   <div class="footer-icons">
@@ -393,7 +393,7 @@
     
 
     <!-- Modal For Booking An Artisan -->
-    <div class = "modal fade" id = "bookArtisan" role = "dialog" aria-hidden= "true" tablindex = "1">
+    <div class = "modal fade" id = "bookRider" role = "dialog" aria-hidden= "true" tablindex = "1">
         <div class= "modal-dialog">
           <div class = "modal-content">
               <div class="close-modal" data-dismiss="modal">
@@ -402,7 +402,7 @@
                   </div>
               </div>
               <div class = "modal-header" style = "background-color: black; color: white; ">
-                  <span class = "mx-auto">Book An Artisan</span>
+                  <span class = "mx-auto">Book a rider</span>
                   <div> 
                     <a href= "#" type = "button" style = "padding: 0; background-color: black; border-color: black; color:white;"   data-dismiss= "modal"> 
                        &times;
@@ -467,7 +467,7 @@
                   </div>
               </div>
               <div class = "modal-header" style = "background-color: black; color: white; ">
-                  <span class = "mx-auto">Become An Able Craftsman</span>
+                  <span class = "mx-auto">Become A Wailodile Rider</span>
                   <div> 
                     <a href= "#" type = "button" style = "padding: 0; background-color: black; border-color: black; color:white;"   data-dismiss= "modal"> 
                        &times;
@@ -528,6 +528,8 @@
        </div>
     </div>
    
+
+   
       
     <!-- Bootstrap core JavaScript -->
     <script src="{{URL::asset('vendor/jquery/jquery.min.js')}}"></script>
@@ -553,7 +555,7 @@
 	  <script src = "{{URL::asset('js/typed.min.js')}}" type = "text/javascript"></script>    
     <script>
       var typed3 = new Typed('#typewriter', {
-					strings: ["Do you need your <strong style = 'color: #fed136;'>AC repaired?<strong>", "Your AC needs <strong style = 'color: #fed136;'>Servicing</strong>", "You have a <strong style = 'color: #fed136;'>Pipe Leakage</strong>", "Your house needs<strong style = 'color: #fed136;'> Re-Painting</strong>"],
+					strings: ["Are you an <strong style = 'color: #fed136;'>online vendor?<strong>", "Do you've a <strong style = 'color: #fed136;'>package</strong>  to deliver?", "Do you've a <strong style = 'color: #fed136;'>meal</strong> to deliver?", "Do you need your <strong style = 'color: #fed136;'> delivered?</strong>"],
 					typeSpeed: 200,
 					backSpeed: 0,
 					smartBackspace: true, // this is a default
